@@ -451,7 +451,7 @@ class Autoloader extends AbstractAutoloader
     /**
      * Removes this Autoloader from the stack
      *
-     * If this was resposnible for removing any other autoloaders during
+     * If this was responsible for removing any other autoloaders during
      * _normalizeSearchPaths() the other autoloaders is readded again.
      *
      * @see _removeByNormalization()
